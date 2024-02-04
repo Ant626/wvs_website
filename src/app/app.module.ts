@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PricingComponent } from './pricing/pricing.component';
     AboutComponent,
     ContactComponent,
     ServicesComponent,
-    PricingComponent
+    PricingComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
